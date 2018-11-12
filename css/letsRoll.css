@@ -1,0 +1,32 @@
+body {
+     margin-top: 30%;
+     padding: 0;
+     background-color: #232323;
+	 font-family: 'Segoe UI', sans-serif;
+}
+
+.border h1 {
+	font-size: 40px;
+    color: #01B0F1;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.border h3 {
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+
+/* .border img { */
+	/* width: 30%; */
+	/* margin-top: 20px; */
+/* } */
+
+.arrow {
+	width: 8%;
+}
+
+.logo {
+	margin-top: 20px;
+	width: 30%;
+}
