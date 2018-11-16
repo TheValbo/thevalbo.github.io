@@ -6,6 +6,7 @@ body {
      padding: 0;
     background-color: #232323;
 	 font-family: 'Segoe UI', sans-serif;
+	 color: white;
 	 height: 100%;
 }
 
@@ -15,12 +16,13 @@ body {
     right: 0;
     left: 0;
     bottom: 90%;
-	background-color: #AD5FFF;
+	background-image: url("../img/background.jpg");
+	background-position: center;
     text-align:center;
 }
 
 .p1 {
-	color: white;
+	color: #FFFFFF;
 	font-size: 20px;
 	margin-top: 5px;
 	margin-bottom: 2px;
@@ -30,7 +32,7 @@ body {
 }
 
 .p2 {
-	color: #01B0F1;
+	color: #FFFFFF;
 	font-size: 14px;
 	margin-top: 0;	
 }
@@ -47,34 +49,6 @@ body {
     bottom: 0;
 }
 
-.standard {
-	position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 50%;
-    text-align:center;
-	border-bottom: 1px solid white;
-}
-
-.standard h2 {
-	top: 50%;
-}
-
-.creative {
-	position: absolute;
-    top: 50%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    text-align:center;
-    color:#FFFFFF;
-}
-
-.creative h2 {
-	top: 50%;
-}
-
 .logo-center {
     position: absolute;
     left: 34%;
@@ -85,8 +59,28 @@ body {
 
 .logo-header {
 	position: absolute;
-    /* z-index: -1; */
 	left: 20px;
-	top: 10px;
-	height: 55px;
+	top: 5px;
+	height: 50px;	
+}
+
+.colorpicker {
+	margin-top: 100px;
+	width: 70%;
+	display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.instruction {
+	margin: 25px 0px 25px 0px;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
 }
