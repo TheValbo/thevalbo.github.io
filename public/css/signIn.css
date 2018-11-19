@@ -1,0 +1,99 @@
+body {
+     margin-top: 30%;
+     padding: 0;
+     background-color: #232323;
+	 font-family: 'Segoe UI', sans-serif;
+}
+
+.border {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.container img {
+	width: 30%;
+	left: 50%;
+	top: 50px;
+}
+
+ .loginbox {
+	background: transparent;
+	color: #FFFFFF;
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginbox input {
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 20;
+}
+
+input[type=text] {
+    width: 80%;
+	max-width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #D1D1D1;
+}
+
+.button {
+	width: 80%;
+	max-width: 300px;
+    padding: 12px 20px;
+    margin: 15px 0px 35px 0px;
+     padding: 12px 12px;
+     cursor: pointer;
+     text-align: center;
+     text-transform: capitalize;
+	 text-decoration: none;
+     border: 0 none;
+     border-radius: 5px;
+     justify-content: center;
+     align-items: center;
+     flex: 0 0 160px;
+	 box-shadow: 5px 5px 10px #000;
+	 font-size: 16px;
+	 	text-transform: uppercase;
+	color: #FFFFFF;
+    background-color: #01B0F1;
+	 -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;  
+}
+
+.remember {
+	margin-bottom: 30px;
+		width: 80%;
+	max-width: 300px;
+}
+
+.remember label {
+	float: left;
+	color: #D1D1D1;
+}
+
+.remember a {
+	color: #1AFBF3;
+
+	/* float: right; */
+}
+
+.hr {
+	border-color: #D1D1D1;
+	width: 80%;
+	max-width: 300px;
+}
