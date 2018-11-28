@@ -1,85 +1,101 @@
-html {
-	height: 100%;
+:root {
+  --grey: #232323;
+  --white: #FFFFFF;
+  --lightBlue: #01B0F1;
+  --purple: #AD5FFF;
+  --lightGray: #D1D1D1;
+  --darkBlue: #5B49AF;
+  --blue: #4A5DBC;
+  --lightBlue2: #2287D7;
+  --lightBlue3: #0BA2E7;
+  --turquoise: #1AFBF3;
+  --blue: #39C2FF;
+  --yellow: #FFEB3C;
+  --orange: #F6A80D;
 }
 
-body {	
-     padding: 0;
-    background-color: #232323;
-	 font-family: 'Segoe UI', sans-serif;
-	 color: white;
-	 height: 100%;
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  background-color: var(--lightBlue);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--white);
+  height: 100%;
 }
 
 .header {
-	position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 90%;
-	background-image: url("../img/background.jpg");
-	background-position: center;
-    text-align:center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 90%;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  text-align: center;
 }
 
 .p1 {
-	color: #FFFFFF;
-	font-size: 20px;
-	margin-top: 5px;
-	margin-bottom: 2px;
-	text-transform: uppercase;
-	font-weight: bold;
-    position: center;
+  color: var(--white);
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: center;
 }
 
 .p2 {
-	color: #FFFFFF;
-	font-size: 14px;
-	margin-top: 0;	
+  color: var(--white);
+  font-size: 14px;
+  margin-top: 0;
 }
 
 .border h2 {
-	font-size: 20px;
-    color: white;
-	text-transform: uppercase;
-	font-weight: bold;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+  font-size: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .logo-center {
-    position: absolute;
-    left: 34%;
-    top: 40%;
-    z-index: -1;
-	height: 150px;
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  z-index: -1;
+  height: 150px;
 }
 
 .logo-header {
-	position: absolute;
-	left: 20px;
-	top: 5px;
-	height: 50px;	
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  height: 50px;
 }
 
 .colorpicker {
-	margin-top: 100px;
-	width: 70%;
-	display: block;
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-top: 100px;
+  width: 70%;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .instruction {
-	margin: 25px 0px 25px 0px;
+  margin: 25px 0px 25px 0px;
 }
 
 .dot {
   height: 50px;
   width: 50px;
-  background-color: #FFFFFF;
+  background-color: var(--white);
   border-radius: 50%;
   display: inline-block;
   margin: 10px;

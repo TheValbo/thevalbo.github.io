@@ -1,99 +1,114 @@
+:root {
+  --grey: #232323;
+  --white: #FFFFFF;
+  --lightBlue: #01B0F1;
+  --purple: #AD5FFF;
+  --lightGray: #D1D1D1;
+  --darkBlue: #5B49AF;
+  --blue: #4A5DBC;
+  --lightBlue2: #2287D7;
+  --lightBlue3: #0BA2E7;
+  --turquoise: #1AFBF3;
+  --blue: #39C2FF;
+  --yellow: #FFEB3C;
+  --orange: #F6A80D;
+}
+
 body {
-     margin-top: 30%;
-     padding: 0;
-     background-color: #232323;
-	 font-family: 'Segoe UI', sans-serif;
+  margin-top: 30%;
+  padding: 0;
+  background-color: var(--lightBlue);
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .border {
-    position: relative;
-    text-align: center;
-    color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  color: var(--white);
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: #FFFFFF;
-	margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 30px;
 }
 
 .container img {
-	width: 30%;
-	left: 50%;
-	top: 50px;
+  width: 30%;
+  left: 50%;
+  top: 50px;
 }
 
- .loginbox {
-	background: transparent;
-	color: #FFFFFF;
-	position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.loginbox {
+  background: transparent;
+  color: var(--white);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .loginbox input {
-	width: 50%;
-	margin-bottom: 20px;
-	padding: 20;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 20;
 }
 
 input[type=text] {
-    width: 80%;
-	max-width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: #D1D1D1;
+  width: 80%;
+  max-width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: var(--lightGray);
 }
 
 .button {
-	width: 80%;
-	max-width: 300px;
-    padding: 12px 20px;
-    margin: 15px 0px 35px 0px;
-     padding: 12px 12px;
-     cursor: pointer;
-     text-align: center;
-     text-transform: capitalize;
-	 text-decoration: none;
-     border: 0 none;
-     border-radius: 5px;
-     justify-content: center;
-     align-items: center;
-     flex: 0 0 160px;
-	 box-shadow: 5px 5px 10px #000;
-	 font-size: 16px;
-	 	text-transform: uppercase;
-	color: #FFFFFF;
-    background-color: #01B0F1;
-	 -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;  
+  width: 80%;
+  max-width: 300px;
+  padding: 12px 20px;
+  margin: 15px 0px 35px 0px;
+  padding: 12px 12px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 0 none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 160px;
+  box-shadow: 5px 5px 10px var(--grey);
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--lightBlue);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .remember {
-	margin-bottom: 30px;
-		width: 80%;
-	max-width: 300px;
+  margin-bottom: 30px;
+  width: 80%;
+  max-width: 300px;
 }
 
 .remember label {
-	float: left;
-	color: #D1D1D1;
+  float: left;
+  color: var(--lightGray);
 }
 
 .remember a {
-	color: #1AFBF3;
-
-	/* float: right; */
+  color: var(--turquoise);
+  /* float: right; */
 }
 
 .hr {
-	border-color: #D1D1D1;
-	width: 80%;
-	max-width: 300px;
+  border-color: var(--lightGray);
+  width: 80%;
+  max-width: 300px;
 }

@@ -1,89 +1,106 @@
+:root {
+  --grey: #232323;
+  --white: #FFFFFF;
+  --lightBlue: #01B0F1;
+  --purple: #AD5FFF;
+  --lightGray: #D1D1D1;
+  --darkBlue: #5B49AF;
+  --blue: #4A5DBC;
+  --lightBlue2: #2287D7;
+  --lightBlue3: #0BA2E7;
+  --turquoise: #1AFBF3;
+  --blue: #39C2FF;
+  --yellow: #FFEB3C;
+  --orange: #F6A80D;
+}
+
 body {
-     /* margin: 20px; */
-     padding: 0;
-     background-color: #232323;
+  /* margin: 20px; */
+  padding: 0;
+  background-color: var(--grey);
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  color: var(--white);
 }
 
 .container img {
-	width: 80%;
-	max-width: 400px;
-	left: 50%;
-	top: 50px;
+  width: 80%;
+  max-width: 400px;
+  left: 50%;
+  top: 50px;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .centered h1 {
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: 50px;
-	font-family: 'Segoe UI', sans-serif;
-	
+  color: var(--white);
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
- .welcomebox h3{
-     font-family: 'Segoe UI', sans-serif;
-	 font-weight: lighter;
-     text-align: center;
-	 margin-top: 0px;
-	 text-align: center;
+.welcomebox h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0px;
+  text-align: center;
 }
- .welcomebox {
-	width: 100%;
-	background: transparent;
-	color: #fff;
-	position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.welcomebox {
+  width: 100%;
+  background: transparent;
+  color: var(--white);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .center {
-	text-align: center;
-margin-top: 10px;
-margin-bottom: 10px;
-	}
-
- .button {
-	 display: block;
-     width: 80%;
-	 max-width: 300px;
-     height: 40px;
-     margin: auto;
-     padding: 12px 12px;
-     cursor: pointer;
-     text-align: center;
-     text-transform: capitalize;
-	 text-decoration: none;
-     border: 0 none;
-     border-radius: 5px;
-     justify-content: center;
-     align-items: center;
-     flex: 0 0 160px;
-	 box-shadow: 5px 5px 10px #000;
-	 font-size: 16px;
-	 -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;  
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
- .signUp {
-     color: #FFFFFF;
-     background-color: #01B0F1;
+.button {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  height: 40px;
+  margin: auto;
+  padding: 12px 12px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 0 none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 160px;
+  box-shadow: 5px 5px 10px var(--grey);
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
- .signIn {
-     background: #FFFFFF;
-	 color: #232323;
-	 margin-top: 50px;
+
+.signUp {
+  color: var(--white);
+  background-color: var(--lightBlue);
+}
+
+.signIn {
+  background: var(--white);
+  color: var(--grey);
+  margin-top: 50px;
 }
