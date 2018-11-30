@@ -9,29 +9,30 @@
 </head>
 
 <body>
-    <div class="border">
-      <div class="header">
-        <img class="logo-header" src="img/logo_innen_weiss.png" alt="logo">
-        <p class="p1">Standard mode</p>
-        <p class="p2">connected to Rhombi</p>
-      </div>
-      <div ng-app="app">
-        <color-picker color="foo"></color-picker>
-      </div>
+  <div class="border">
+    <div class="header">
+      <img class="logo-header" src="img/logo_innen_weiss.png" alt="logo">
+      <p class="p1">Standard mode</p>
+      <p class="p2">connected to Rhombi</p>
+    </div>
+    <div ng-app="app" class="centerDiv">
+      <color-picker color="foo"></color-picker>
       <p class="instruction">Play music through any </br> player and Rhombi reacts to it.</p>
-      <div class="dots">
+      <div class="dotsTop">
         <span class="dot" id="dot1" onclick="setColor(this)"></span>
-        <span class="dot" id="dot2" onclick="setColor(this)"></span>
-        <span class="dot" id="dot3" onclick="setColor(this)"></span>
-        <span class="dot" id="dot4" onclick="setColor(this)"></span>
+          <span class="dot" id="dot2" onclick="setColor(this)"></span>
+          <span class="dot" id="dot3" onclick="setColor(this)"></span>
+          <span class="dot" id="dot4" onclick="setColor(this)"></span>
       </div>
-      <div class="dots">
+      <div class="dotsBottom">
         <span class="dot" id="dot5" onclick="setColor(this)"></span>
         <span class="dot" id="dot6" onclick="setColor(this)"></span>
         <span class="dot" id="dot7" onclick="setColor(this)"></span>
         <span class="dot" id="dot8" onclick="setColor(this)"></span>
       </div>
     </div>
+
+  </div>
 
   <script type='text/javascript'>
     window.glob = "global variable";

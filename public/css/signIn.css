@@ -17,12 +17,17 @@
 body {
   margin-top: 30%;
   padding: 0;
-  background-color: var(--lightBlue);
+  background-color: var(--grey);
   font-family: 'Segoe UI', sans-serif;
 }
 
 .border {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 500px;
+  transform: translateX(-50%) translateY(-50%);
   text-align: center;
   color: var(--white);
 }
@@ -36,6 +41,7 @@ body {
 
 .container img {
   width: 30%;
+  max-width: 150px;
   left: 50%;
   top: 50px;
 }
@@ -92,6 +98,12 @@ input[type=text] {
 }
 
 .remember {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 500px;
+  transform: translateX(-50%) translateY(-50%);
   margin-bottom: 30px;
   width: 80%;
   max-width: 300px;
@@ -100,11 +112,13 @@ input[type=text] {
 .remember label {
   float: left;
   color: var(--lightGray);
+  font-size: 12px;
 }
 
 .remember a {
   color: var(--turquoise);
-  /* float: right; */
+  font-size: 12px;
+  float: right;
 }
 
 .hr {
