@@ -16,6 +16,7 @@
 
 html {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -105,6 +106,7 @@ body {
 .dotsTop {
   position: relative;
   top: 55%;
+  text-align: center;
 }
 
 
@@ -116,6 +118,7 @@ body {
 .dotsBottom {
   position: relative;
   top: 55%;
+  text-align: center;
 }
 
 .color-picker {

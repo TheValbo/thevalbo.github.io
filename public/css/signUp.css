@@ -14,29 +14,15 @@
   --orange: #F6A80D;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin-top: 30%;
   padding: 0;
   background-color: var(--grey);
   font-family: 'Segoe UI', sans-serif;
-}
-
-.border {
-  width: 80%;
-  height: 100%;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: var(--white);
-  margin-bottom: 30px;
-}
-
-.container img {
-  width: 40%;
-  left: 50%;
-  top: 80px;
 }
 
 .centered {
@@ -53,13 +39,70 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+.form {
+  text-align: center;
+}
+
+.form-section {
+  width: 80%;
+  max-width: 300px;
+  height: 45px;
+  padding: 0px;
+  margin: 8px 0;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: var(--lightGray);
+  display: inline-block;
+}
+
+.icon {
+  background-color: var(--grey);
+  height: 42px;
+  width: 52px;
+  border-radius: 4px 0px 0px 4px;
+  display: inline-block;
+  margin: 0;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 500px;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: var(--white);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+
+.container img {
+  width: 30%;
+  max-width: 150px;
+  left: 50%;
+  top: 50px;
+}
+
 .loginbox {
-  background: transparent;
+  /* background: transparent;
   color: var(--white);
   position: absolute;
   top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .loginbox input {
@@ -68,29 +111,23 @@ body {
   padding: 20;
 }
 
-input[type=text] {
+input[type=text], input[type=password], input[type=email], input[type=number] {
   width: 80%;
   max-width: 300px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid var(--grey);
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: var(--lightGray);
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  border: 1px solid transparent;
+  /* border-radius: 4px; */
+  /* box-sizing: border-box; */
+  background-color: transparent;
 }
 
 .button {
-  display: block;
   width: 80%;
   max-width: 300px;
-  height: 40px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 15px 0px 35px 0px;
   padding: 12px 12px;
   cursor: pointer;
-  text-align: center;
-  text-transform: capitalize;
   text-decoration: none;
   border: 0 none;
   border-radius: 5px;
@@ -99,6 +136,7 @@ input[type=text] {
   flex: 0 0 160px;
   box-shadow: 5px 5px 10px var(--grey);
   font-size: 16px;
+  text-transform: uppercase;
   color: var(--white);
   background-color: var(--lightBlue);
   -webkit-appearance: none;
@@ -107,20 +145,31 @@ input[type=text] {
 }
 
 .remember {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 500px;
+  transform: translateX(-50%) translateY(-50%);
   margin-bottom: 30px;
+  width: 80%;
+  max-width: 300px;
 }
 
 .remember label {
   float: left;
   color: var(--lightGray);
+  font-size: 12px;
 }
 
 .remember a {
   color: var(--turquoise);
-  /* float: right; */
+  font-size: 12px;
+  float: right;
 }
 
 .hr {
   border-color: var(--lightGray);
-  width: 100%;
+  width: 80%;
+  max-width: 300px;
 }

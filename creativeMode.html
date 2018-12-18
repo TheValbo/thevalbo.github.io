@@ -18,8 +18,8 @@
     <div ng-app="app" class="center-div" style="height: 60%">
       <color-picker color="foo"></color-picker>
     </div>
-    <div style="height: 40%; width: 100%">
-      <div style="height: 50%; width: 100%" class="dots">
+    <div>
+      <div class="dots">
         <span class="dot" id="dot1">
           <p>1</p>
         </span>
@@ -36,20 +36,19 @@
           <p>5</p>
         </span>
       </div>
-      <div style="height: 50%; margin: 0px;" class="soundModule">
-        <div class="dotBottom">
-          <div class="soundControl">
-            <img class="previousBtn" src="public/ico/next.png" alt="previous">
-            <img class="playBtn" src="public/ico/play-button.png" alt="play">
-            <img class="nextBtn" src="public/ico/next.png" alt="next">
-            <!-- <span class="volumeRegulation">
-            <p> Sound 1 </p>
-            <img class="volumeBtn" src="public/ico/volume-up-interface-symbol.png" alt="volume">
-            <p> 95 % </p>
-          </span> -->
-          </div>
+      <div id="footer">
+            <div id="circle">
+                <div id="soundControl">
+                    <img class="previousBtn" src="public/ico/next.png">
+                    <img class="playBtn" src="public/ico/play-button.png">
+                    <img class="nextBtn" src="public/ico/next.png">
+                </div>
+            </div>
+            <div id="footContainer">
+                <div id="sound">Sound 1</div>
+                <div id="volume">Volume: 90%</div>
+            </div>
         </div>
-      </div>
     </div>
   </div>
 

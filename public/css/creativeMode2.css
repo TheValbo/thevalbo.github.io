@@ -141,8 +141,8 @@ background-color: var(--yellow);
 }
 
 .backIcon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   transform: scaleX(-1);
   -moz-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);

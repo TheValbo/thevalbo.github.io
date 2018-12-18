@@ -9,23 +9,33 @@
 </head>
 
 <body>
-    <div class="border">
-      <div class="container">
-        <img src="public/ico/avatar_circle.png" alt="background">
-      </div>
-      <form>
-        <input type="text" id="fname" name="username" placeholder="USERNAME">
-        <input type="text" id="lname" name="password" placeholder="*****">
-        <input class="button" type="button" value="Login" onclick="window.location.href='/letsRoll.html'" />
-      </form>
-      <div class="remember">
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me</input>
-        </label>
-        <span class="psw"> <a href="#">Forgot your password?</a> </span>
-      </div>
-      <hr width="80%">
+  <div class="border">
+    <div class="container">
+      <img src="public/ico/avatar_circle.png" alt="background">
     </div>
+    <form>
+      <div class="form-section">
+        <div class="icon">
+            <img width="20" src="public/ico/avatar.png" alt="background">
+        </div>
+        <input type="text" name="name" placeholder="Username">
+      </div>
+      <div class="form-section">
+        <div class="icon">
+          <img width="20" src="public/ico/lock.png" alt="background">
+        </div>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+      <input class="button" type="button" value="Login" onclick="window.location.href='/letsRoll.html'" />
+    </form>
+    <div class="remember">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me</input>
+      </label>
+      <span class="psw"> <a href="#">Forgot your password?</a> </span>
+    </div>
+    <hr width="80%">
+  </div>
 </body>
 
 </html>

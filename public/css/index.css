@@ -14,6 +14,10 @@
   --orange: #F6A80D;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   /* margin: 20px; */
   padding: 0;

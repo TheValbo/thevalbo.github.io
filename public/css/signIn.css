@@ -14,11 +14,47 @@
   --orange: #F6A80D;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin-top: 30%;
   padding: 0;
   background-color: var(--grey);
   font-family: 'Segoe UI', sans-serif;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-section {
+  width: 80%;
+  max-width: 300px;
+  height: 45px;
+  padding: 0px;
+  margin: 8px 0;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: var(--lightGray);
+  display: inline-block;
+}
+
+.icon {
+  background-color: var(--grey);
+  height: 42px;
+  width: 52px;
+  border-radius: 4px 0px 0px 4px;
+  display: inline-block;
+  margin: 0;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
 }
 
 .border {
@@ -47,12 +83,12 @@ body {
 }
 
 .loginbox {
-  background: transparent;
+  /* background: transparent;
   color: var(--white);
   position: absolute;
   top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .loginbox input {
@@ -61,26 +97,23 @@ body {
   padding: 20;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
   width: 80%;
   max-width: 300px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  border: 1px solid var(--white);
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: var(--lightGray);
+  /* padding: 12px 20px; */
+  /* margin: 8px 0; */
+  border: 1px solid transparent;
+  /* border-radius: 4px; */
+  /* box-sizing: border-box; */
+  background-color: transparent;
 }
 
 .button {
   width: 80%;
   max-width: 300px;
-  padding: 12px 20px;
   margin: 15px 0px 35px 0px;
   padding: 12px 12px;
   cursor: pointer;
-  text-align: center;
-  text-transform: capitalize;
   text-decoration: none;
   border: 0 none;
   border-radius: 5px;
